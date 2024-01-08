@@ -69,6 +69,10 @@ nav a{
     margin-top: 5px;
 }
 /*main section*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 
 /*about section*/
@@ -91,4 +95,11 @@ nav a{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align:center;
 }
